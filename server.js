@@ -51,7 +51,7 @@ async function handleDownload(req, res) {
 }
 
 
-app.listen(80, () => {
-    console.log("Server started");
+app.listen(443, () => {
+    console.log("Server started on 443");
 }
 );
