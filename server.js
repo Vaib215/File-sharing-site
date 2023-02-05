@@ -7,7 +7,7 @@ const app = express();
 
 const upload = multer({ dest: 'uploads' });
 
-mongoose.connect("mongodb+srv://Vaib215:Mongodb%40123@cluster0.pfaht.mongodb.net/?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://vaib215:mongo123@cluster0.9mk7hzh.mongodb.net/?retryWrites=true&w=majority");
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
